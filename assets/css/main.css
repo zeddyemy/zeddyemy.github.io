@@ -19,7 +19,7 @@
     --font-three: 'RobotoSerif',sans-serif;
     --font-four: 'ARSMaquettePro',sans-serif;
     --rounded-post: 20px;
-    --brightness: brightness(100%) contrast(1);
+    --brightness: brightness(80%) contrast(1.1);
     --transition: all ease-in-out 1s;
     --theme-color: #00a0a0;
 }

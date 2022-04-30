@@ -124,10 +124,6 @@
 
 
 @media screen and (max-width: 453px) {
-    #priority-section .priorities-container .priorities {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1.8rem;
-    }
     .the-priorities .hex-wrap {
         height: 60px;
         width: 60px;
@@ -147,6 +143,18 @@
     #priority-section .container .text-container .the-text,
     #priority-section .priorities-container .priorities {
         padding: 0px 40px 30px 40px;
+    }
+}
+@media screen and (max-width: 719px) {
+    #priority-section .priorities-container .priorities {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.8rem;
+    }
+    .the-priorities:nth-child(5) {
+        grid-column: 1 / span 2;
+    }
+    .the-priorities:nth-child(5) .text {
+        padding: 0 29.5% 10px 29.5%;
     }
 }
 @media screen and (min-width: 999px) {
